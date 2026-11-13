@@ -20,7 +20,7 @@ Web de todos los proyectos de Eduglat, publicada con GitHub Pages en **https://e
 
 ## Imágenes de la portada
 
-Los originales de Gemini van en `_originales/`, que no se sube a GitHub. Se procesan a WebP en `img/`:
+Los originales de Gemini van en `_originales/`, que no se sube a GitHub. Se procesan con `python herramientas/preparar_imagenes.py` (necesita Pillow y numpy), que los deja en `img/`:
 
 | Archivo | Uso | Tamaño final |
 |---|---|---|

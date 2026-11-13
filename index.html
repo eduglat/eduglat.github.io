@@ -34,6 +34,10 @@
   header { padding: 1.25rem 0; }
   .marca { display: inline-flex; align-items: center; gap: .6rem; text-decoration: none; color: var(--texto); }
   .marca img { width: 44px; height: 44px; }
+  @media (prefers-color-scheme: dark) {
+    /* El verde del isotipo se pierde sobre el fondo oscuro: va sobre un círculo claro */
+    :root:not([data-theme="light"]) .marca img { background: #f7f3ec; border-radius: 50%; padding: 4px; }
+  }
   .marca span { font-family: "Iowan Old Style", "Palatino Linotype", Palatino, Georgia, serif; font-size: 1.6rem; font-weight: 700; letter-spacing: .01em; }
 
   .portada { display: grid; gap: 2rem; align-items: center; padding: 2rem 0 3rem; }
