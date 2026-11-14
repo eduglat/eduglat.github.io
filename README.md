@@ -14,6 +14,8 @@ Web de todos los proyectos de Eduglat, publicada con GitHub Pages en **https://e
 
 **No cambiar de lugar `lectio-privacidad/` ni `lectio-prueba/`:** esas direcciones están dentro de la app publicada y en Play Console.
 
+**`lectio/`, `lectio-privacidad/` y `lectio-prueba/` son copias: no se editan a mano.** Sus originales viven en el repositorio de la app (`BosqueMagicoLectura`, carpetas `docs/web-lectio/`, `docs/web-privacidad/` y `docs/web-prueba/`, versión de `master`) y los cambia la sesión de Desarrollo de LECTIO. Para publicar un cambio se copia el original de `master` tal cual; el procedimiento está en la ficha de la sesión Web (`eduglat/web/SESION_WEB.md`, §5).
+
 **Cada proyecto nuevo** tiene su propio repositorio en `eduglat/<proyecto>` y su carpeta aquí (`/<proyecto>/`). También se agrega su tarjeta en la portada.
 
 `.nojekyll` evita que GitHub procese los archivos: se publican tal cual.
